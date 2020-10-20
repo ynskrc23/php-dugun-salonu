@@ -1,0 +1,601 @@
+ /* Add a gray background color and some padding to the footer */
+footer {
+      background-color: #eee;
+      padding: 25px;
+    }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+	
+.yazialani {
+		width: 1140px;
+		height: 600px;
+		margin-left: 100px;
+	}
+.yazialani h2 {
+		font-size: 24px;
+		font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+		font-weight: bold;
+		text-align: center;
+	}
+
+.yazialani p {
+		font-size: 18px;
+		font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+		font-weight: normal;
+	}
+
+.sag {
+	margin-left: 1040px;
+	padding: 10px;
+}
+
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.böl {
+	background:#eee;
+	width: 390px;
+	height:360px;
+	float: left;
+	border: 1px solid dodgerblue;
+	border-radius: 10px;
+}
+
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+
+.listelemealani{
+	background: transparent;
+	width: 1170px;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom:30px;
+	float: left;
+}
+
+.listelemealanisol{
+	width: 785px;
+	height: auto;
+	float: left;
+}
+
+.tab {
+    overflow: hidden;
+    border: 2px solid #ccc;
+	background-color: #f1f1f1;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px;
+    transition: 0.3s;
+	font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: dodgerblue;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+	border-top: none;
+	font-size: 16px;
+}
+
+.tabcontent img {
+	height: 100px;
+	width: 160px;
+}
+
+.tabcontent img:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.tabcontent h3 {
+	font-size: 24px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight:bold;
+	text-align: center;
+}
+
+.listelemealanisag {
+	width: 363px;
+	height: 300px;
+	float: auto;
+	margin-left: 825px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.listelemealanisag h2 {
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight:bold;
+	text-align: center;
+}
+
+.sagkutu {
+	width:180px;
+	height:360px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 165px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+
+.mesajiniz{
+	position:relative;
+	border:1px solid #ddd;
+	padding:5px;
+	background:yellow;
+	margin-top:10px;
+	font-size:18px;
+	text-align:center;
+}
+
+.yorum {
+	border:1px solid #ddd;
+	position:relative;
+	margin-top:20px;
+	height:170px;
+}
+.yorum h4 {
+	margin:5px;	
+	border:2px solid #ddd;
+	padding:5px;
+	background:#f6f6f6;
+	font-size:18px;
+}
+
+.yorum span {
+	float:right;
+}
+
+.yorum p {
+	margin:5px;
+	padding:5px;
+	font-size:16px;
+}
+
+.w {
+	border: 1px solid #ddd;
+	margin-top:10px;
+	position:relative;
+	padding:10px;
+	font-size:16px;
+}
+
+.aramakutusu {
+	width:300px; 
+	height:35px; 
+	margin-left:10px; 
+	padding: 6px 10px
+}
+
+@media only screen and (min-width: 1px) and (max-width: 320px) {
+.menu .open{display:block;}
+.menu ul {display:none;}
+.menu ul li{float:none; margin-right:0; border-bottom:1px solid #333}
+.menu ul li:last-child{border-bottom:none}
+.menu ul {display:block!important;}
+	
+.yazialani {
+	width: 300px;
+	height: 850px;
+	margin-left:10px;
+}
+
+.yazialani h2 {
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.yazialani p {
+	font-size: 14px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: normal;
+}
+
+.sagkutu {
+	width:280px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 250px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+
+.sag {
+	margin-left: 720px;
+	padding: 10px;
+}
+
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+	.menu .open{display:block;}
+    .menu ul {display:none;}
+    .menu ul li{float:none; margin-right:0; border-bottom:1px solid #333}
+    .menu ul li:last-child{border-bottom:none}
+	.menu ul {display:block!important;}
+	
+.sagkutu {
+	width: 170px;
+	height: 300px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 150px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+	
+.yazialani {
+	width: 360px;
+	height: 600px;
+	margin-left: 10px;
+	}
+.yazialani h2 {
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+	}
+
+.yazialani p {
+	font-size: 12px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: normal;
+	}
+	
+.sag {
+	margin-left: 720px;
+	padding: 10px;
+}
+	
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+	.menu .open{display:block;}
+    .menu ul {display:none;}
+    .menu ul li{float:none; margin-right:0; border-bottom:1px solid #333}
+    .menu ul li:last-child{border-bottom:none}
+	.menu ul {display:block!important;}
+	
+.sagkutu {
+	width: 190px;
+	height: 300px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 170px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+
+.yazialani {
+	width: 400px;
+	height: 700px;
+	margin-left: 10px;
+}
+.yazialani h2 {
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.yazialani p {
+	font-size: 14px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: normal;
+}
+	
+.sag {
+	margin-left: 720px;
+	padding: 10px;
+}
+	
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+	
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+	
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+	.menu .open{display:block;}
+    .menu ul {display:none;}
+    .menu ul li{float:none; margin-right:0; border-bottom:1px solid #333}
+    .menu ul li:last-child{border-bottom:none}
+	.menu ul {display:block!important;}
+	
+.sagkutu {
+	width: 110px;
+	height: 300px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 100px;
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+
+.yazialani {
+	width: 750px;
+	height: 600px;
+	margin-left: 10px;
+}
+.yazialani h2 {
+	font-size: 24px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.yazialani p {
+	font-size: 16px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: normal;
+}
+
+.sag {
+	margin-left: 720px;
+	padding: 10px;
+}
+
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.menu .open{display:block;}
+    .menu ul {display:none;}
+    .menu ul li{float:none; margin-right:0; border-bottom:1px solid #333}
+    .menu ul li:last-child{border-bottom:none}
+	.menu ul {display:block!important;}
+	
+.sagkutu {
+	width: 140px;
+	height: 300px;
+	float: left;
+}
+
+.sagkutu p {
+	width: 120px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid black;
+	border-radius: 30px;
+	background:#eee;
+	margin-left:10px;
+}
+	
+.yazialani {
+	width: 1000px;
+	height: 600px;
+	margin-left: 10px;
+}
+.yazialani h2 {
+	font-size: 36px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.yazialani p {
+	font-size: 18px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: normal;
+}
+
+.sag {
+	margin-left: 750px;
+	padding: 10px;
+}
+
+.profil {
+	background: #ddd;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 1px solid dodgerblue;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.profil button{
+	margin-left:40%;
+}
+
+.kullaniciekraniortaalan{
+	background:transparent;
+	width: 1170px;
+	height:820px;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 90px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+}
